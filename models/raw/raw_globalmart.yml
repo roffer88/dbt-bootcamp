@@ -11,10 +11,10 @@ models:
     columns:
       - name: shipmode
         tests:
-        - accepted_values:
-            values: ['First Class', 'Same Day', 'Second Class', 'Standard Class']
+          - accepted_values:
+              values:
+                ["First Class", "Same Day", "Second Class", "Standard Class"]
       - name: orderid
         tests:
           - unique
           - not_null
-          
